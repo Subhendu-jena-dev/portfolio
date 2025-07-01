@@ -1,0 +1,635 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+nav{
+    background-color: rgb(209, 204, 198);
+    height: 70px;
+    width: 100%;
+    box-shadow:0px 1px 20px -2px rgb(65, 63, 63);
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     position: sticky;
+     top: 0%;
+     z-index: 15;
+}
+.logo{
+height: 100%;
+width:30%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: aliceblue;
+color: rgb(30, 159, 171);
+
+text-transform: capitalize;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+.nav_list{
+    height: 100%;
+    width:40%;
+    
+    background-color:aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.download_button{
+height: 100%;
+width:30%;
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: aliceblue;
+
+}
+#dwd-btn:hover{
+   background-color:  rgb(0, 201, 255);
+}
+#dwd-btn{
+    border-radius: 15px;
+    padding: 15px 20px;
+    background-color: rgb(217, 215, 215);
+    color: black;
+    font-size: 15px;
+    border: rgb(55, 54, 54) ;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+#fileicon{
+    margin: 5px;
+}
+a:active{
+    color: rgb(43, 134, 218);
+}
+/* nav cssend */
+/* home css */
+#home{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items:start ;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 30px 30px 30px 0px;
+    
+}
+#imgdiv{
+    height:100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+#imgcontainer
+{
+height: 70%;
+width:80%;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#imgcontainer>img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid aqua;
+}
+
+
+#homediv{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+
+
+#homebtn{
+    background-color: rgb(192, 166, 49);
+    color: aliceblue;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: white;
+    font-size: large;
+}
+
+#c1{
+    color: rgb(51, 49, 49);
+    font-size: 50px;
+    font-family: sans-serif;
+}
+    
+#c2
+{
+    color: rgb(30, 159, 171);
+    font-size: 50px;
+    font-family: sans-serif;
+   
+}
+#c3{
+    color: rgb(85, 82, 82);
+}
+#btncontainer{
+    gap: 10px;
+}
+#hirebtn{
+    padding: 18px 28px;
+    border-radius: 10px;
+    background-color:rgb(157, 84, 241);
+    margin: 10px 10px;
+    color: aliceblue;
+    border: white;
+    font-size: large;
+    cursor: pointer;
+
+}
+#hirebtn:hover{
+    background-color: rgb(51, 51, 210);
+}
+#dwd-btn2{
+    padding: 15px;
+    margin: 1px 15px;
+    border-radius: 10px;
+    border:rgb(55, 54, 54) ;
+    background-color: rgb(217, 215, 215);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#dwd-btn2:hover{
+    background-color:rgb(0, 201, 255);
+}
+#iconcontainer{
+    height: 50px;
+    width: 100%;
+    padding: 100px 10 px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    
+}
+#icon{
+    height: 40px;
+    width: 40px;
+    /* background-color: black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow:0px 5px 5px -2px rgb(192, 191, 191); 
+    cursor: pointer;
+}
+#scrollcontainer{
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#scrollbtn{
+    
+        padding: 16px 25px;
+        border-radius: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        border: none;
+        font-size: large;
+        text-transform: capitalize;
+        cursor: pointer;
+        color: gray;
+        box-shadow: 0px 5px 5px -2px rgb(190, 189, 189)
+}
+/* home css end */
+/* about css start */
+#about{
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+#aboutheading{
+    height: 20%;
+    width: 100%;
+    font-size: 18px;
+    font-family:  sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutcontainer{
+    height: 80%;
+    width: 100%;
+    /* background-color: bisque; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#introductioncontainer{
+    height: 80%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    margin: 50px;
+}
+#skills{height: 80%;
+    width: 60%;
+    /* background-color: rgb(142, 19, 125); */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 80px;
+
+}
+#skills button{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+    background-color: rgb(110, 87, 224);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+#frontend{
+height: 100%;
+width: 40%;
+/* background-color: chartreuse; */
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+
+}
+
+#backend{
+height: 100%;
+width: 20%;
+/* background-color: chocolate; */
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+
+}
+#database{
+height: 100%;
+width: 20%;
+/* background-color: coral; */
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+#dwd-btn3{
+    padding: 15px;
+    margin: 1px 15px;
+    border-radius: 25px;
+    border:rgb(55, 54, 54) ;
+    background-color: rgb(83, 137, 223);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#dwd-btn3:hover{
+    background-color: aqua;
+}
+#introduction{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px ;
+    padding: 20px;
+    border: 1px  solid whitesmoke;
+    border-radius: 10px;
+    box-shadow:1px 8px 10px 2px rgb(124, 116, 116);
+}
+#buttoncontainer{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#introduction>h1{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    
+}
+#introduction>p{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    word-spacing: 3px;
+    color: rgb(135, 132, 132);
+}
+#skills h2{
+    font-family: sans-serif;
+    color: rgb(127, 126, 126);
+}
+/*  */
+#project{
+    height: 400px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    /* background-color: rgb(255, 255, 255); */
+
+}
+#projectheading{
+     height: 20%;
+    width: 100%;
+    font-size: 18px;
+    font-family:  sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#projectcontainer{
+     height: 80%;
+    width: 100%;
+    
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projectcard{
+    height: 80%;
+    width: 25%;
+    border-radius: 10%;
+     border: 1px  solid whitesmoke;
+     box-shadow:1px 8px 10px 2px rgb(124, 116, 116);
+     /* background-color: aliceblue; */
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-evenly;
+     box-sizing: border-box;
+     padding: 20px;
+
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+     
+     /* color: rgb(221, 23, 23); */
+     
+}
+.projectcard::after{
+    content: "";
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:100%;
+    background-color:rgb(0, 201, 255);
+    transition: all 1s;
+    z-index: -1;
+    
+    
+
+}
+.projectcard:hover::after{
+            top: 0;
+            
+        }
+ #cardlogo{
+    font-size: 50px;
+    color:rgb(0, 201, 255);
+            }
+  #cardsentence{
+    color: rgb(21, 20, 20);
+    font-size: 25px;
+  } 
+  .projectcard h4{
+    color: rgb(23, 23, 24);
+    font-size: 20px;
+ }         
+  
+
+ .projectcard:hover #cardlogo {
+    color: aliceblue;
+ }  
+ .projectcard:hover #cardsentence {
+    color: aliceblue;
+ }  
+ .projectcard:hover h4 {
+    color: aliceblue;
+ } 
+ #contact{
+    height: 700px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    /* background-color: rgb(255, 255, 255); */
+
+} 
+#contactheading{
+     height: 30%;
+    width: 100%;
+    font-size: 15px;
+    font-family:  sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+#contactheading h1{
+    color: black;
+}
+#contactheading h3{
+    color: rgb(97, 96, 96);
+}
+
+
+#contactcontainer{
+     height: 70%;
+    width: 100%;
+    
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+#contactinfo{
+    height: 65%;
+    width: 40%;
+    border-radius: 20px;
+     border: 1px  solid whitesmoke;
+     box-shadow:1px 8px 10px 2px rgb(124, 116, 116);
+     /* background-color: rgb(18, 18, 19); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 10px;
+     box-sizing: border-box;
+     padding: 20px;
+     margin: 10px 50px 10px 100px ;
+    
+
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+     background-color:rgb(0, 201, 255);
+     
+     /* color: rgb(221, 23, 23); */
+      color: aliceblue;
+    
+     
+}    
+#contactinfo::after{
+    content: "";
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:100%;
+    background-color:whitesmoke;
+    transition: all 1s;
+    z-index: -1;
+   
+
+}
+#contactinfo:hover::after{
+            top: 0;
+            
+        }
+#contactinfo:hover h1{
+    color: rgb(15, 15, 15);
+}
+#contactinfo:hover h3{
+    color: rgb(15, 15, 15);
+}
+#sugetion{
+     height: 70%;
+    width: 50%;
+    
+     display: flex;
+     flex-direction: column;
+    align-items: space-evenly;
+
+    justify-content: space-evenly;
+    gap: 30px;
+    /* background-color: blue; */
+    box-sizing: border-box;
+    padding: 10px 30px 10px 30px;
+}
+#sugetion input{
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    /* padding: 15px 60px 15px 1px; */
+    /* box-sizing: border-box; */
+    padding-left:10px ;
+
+
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+}
+#sugetion textarea{
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    /* padding: 15px 60px 15px 1px; */
+    height: 250px;
+    width: 550px;
+    margin: 10px;
+    padding: 15px;
+}
+#nameemail{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+}
+#sendbtn{
+    height: 50px;
+    width: 100px;
+     
+ color: aliceblue;
+    border-radius: 10px;
+    border:rgb(55, 54, 54) ;
+    background-color: cyan;
+    font-size: 15px;
+    cursor: pointer;
+}
+#sendbtn:hover{
+    background-color:rgb(83, 137, 223); 
+
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+.nav_list2{
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    font-weight: 600;
+     
+}
+#iconcontainer2{
+    display: flex;
+    gap: 50px;
+}
